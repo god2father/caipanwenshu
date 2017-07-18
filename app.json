@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/search/search",
+    "pages/details/details",
+    "pages/card/card"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#412939",
+    "navigationBarTitleText": "裁判文书",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh": "true"
+  }
+}

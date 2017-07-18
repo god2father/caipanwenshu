@@ -1,0 +1,20 @@
+<view class="list-search-box">
+    <view class="search-box list-search-bg" >
+        <form>
+            <input type="text"  placeholder="  请输入案件关键词..." class="tc list-search-input" placeholder-class="list-placeholder"  bindfocus="toSearch" />
+        </form>
+    </view>
+</view>
+
+<view class="view-list-page">
+    <block wx:for="{{listData}}" wx:key="property">
+        <navigator url="../details/details?caseid={{item.CaseId}}" class="list-items">
+            <view class="list-item-title"><text >{{item.CaseName}}</text></view>
+           <view class="list-item-mid"><text>{{item.CourtName}}</text></view>
+           <view class="list-item-bottom"><text class="list-item-left fl">{{item.CaseNo}}</text>
+           <text class="list-item-right fr">{{item.RefereeDateStr}}</text></view>
+        </navigator>
+     </block>
+</view>
+<view >
+</view>

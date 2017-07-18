@@ -1,0 +1,26 @@
+<view class="details-box">
+    <view class="details-title tc">
+    <text>{{detailsData.CaseName}}</text>
+</view>
+<view class="details-title-time">
+    <text class="fl">发布日期{{caseTime}}</text>
+    <text class="fr">浏览{{detailsData.BrowseNum}}次</text>
+</view>
+<view class="details-container-title tc">
+    <text>{{caseTitle}}</text>
+</view>
+<!--<view class="deatils-num tr">
+    <text>{{detailsData.CaseNo}}</text>
+</view>-->
+    <view class="details-container"><text>{{contentDetails}}</text></view>
+</view>
+<view class="details-notice">
+    <view class="details-notice-title">
+        <text>公告</text>
+    </view>
+    <view class="details-notice-text">
+        <text>一、本裁判文书库（panjueshu.com）为非盈利网站，内容来源于中国裁判文书网,并依据法律与审判公开的原则予以公开。
+二、本裁判文书库提供的信息仅供查询人参考，内容以正式文本为准。非法使用裁判文书库信息给他人造成损害的，由非法使用人承担法律责任。
+三、如需删除相应文书请附带网页网址发送至邮箱（bd@chongfa.com）我们将在1-3个工作日内做删除处理,请及时跟进处理情况</text>
+    </view>
+</view>
